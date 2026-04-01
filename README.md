@@ -24,7 +24,7 @@ Portable apps are great because they don't clutter your system, but they usually
 
 -----
 
-## **!** Safety First
+## Safety First
 
 Because the uninstaller is designed to delete the application's folder when you're done with it, you need to be careful where you run this:
 
