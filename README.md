@@ -1,7 +1,7 @@
 # Universal Portable App Installer (UPAI)
 
 **Current Version:** 1.0 (Stable)  
-**Author:** [danlogit/Kardani](https://www.google.com/search?q=https://github.com/danlogit)  
+**Author:** [danlogit/Kardani](https://github.com/danlogit)  
 **License:** GNU GPL v3.0
 
 -----
