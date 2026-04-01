@@ -24,7 +24,7 @@ Portable apps are great because they don't clutter your system, but they usually
 
 -----
 
-## ⚠️ Safety First
+## **!** Safety First
 
 Because the uninstaller is designed to delete the application's folder when you're done with it, you need to be careful where you run this:
 
@@ -36,7 +36,7 @@ Because the uninstaller is designed to delete the application's folder when you'
 
 ## How to Use
 
-1.  Move `UPAI.bat` into the folder where your portable app lives.
+1.  Move `UPAI_v1.0.bat` into the folder where your portable app lives.
 2.  Run it as **Administrator**.
 3.  Follow the prompts to name the app and select the main executable.
 
@@ -53,3 +53,5 @@ Because the uninstaller is designed to delete the application's folder when you'
 I wrote the core of this tool manually up to **Alpha-v0.6.3**. For the jump to **v1.0**, I used AI to help expand the PowerShell and VBScript functions.
 
 While AI provided the "scaffolding," it introduced several logic errors (like registry hive mismatches and risky deletion paths). I have since gone through and fixed those bugs to ensure this version is rock-solid and safe enough for any Windows enthusiast to use daily.
+
+I will soon add a Lite version that is just a skinned down version of the Normal/Pro one. (Current development version: **Alpha-v0.1.4**)
