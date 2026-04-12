@@ -11,7 +11,7 @@
 
 ## What is this?
 
-Portable apps are great because they don't clutter your system, but they usually lack basic Windows integration—no Start Menu shortcuts and no entry in "Apps & Features."
+Portable apps are great because they don't clutter your system, but they usually lack basic Windows integration - no Start Menu shortcuts and no entry in "Apps & Features."
 
 **UPAI** is a refined batch script that makes portable apps feel "installed." It handles the registry work and shortcut creation so your favorite tools are actually indexed by Windows, while keeping them completely portable.
 
