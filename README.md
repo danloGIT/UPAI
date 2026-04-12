@@ -1,8 +1,11 @@
 # Universal Portable App Installer (UPAI)
 
-**Current Version:** 1.0 (Stable)  
+![OS: Windows](https://img.shields.io/badge/OS-Windows_10%20|%2011-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Language: Batch/PowerShell](https://img.shields.io/badge/Language-Batch%20|%20PowerShell-4D4D4D?style=flat-square&logo=powershell&logoColor=white)
+![Version](https://img.shields.io/badge/Version-1.0_(Stable)-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-GPL_v3.0-orange?style=flat-square)
+
 **Author:** [danloGIT/Kardani](https://github.com/danloGIT)  
-**License:** GNU GPL v3.0
 
 -----
 
@@ -16,11 +19,11 @@ Portable apps are great because they don't clutter your system, but they usually
 
 ## Features
 
-  * **System Integration:** Adds your app to the Windows Uninstall list (`HKLM`) so it shows up in system searches and settings.
-  * **Automatic Uninstaller:** Creates a custom `Uninstall.bat` in the app folder that cleans up registry keys and shortcuts before removing the directory.
-  * **Shortcut Creation:** Pins the app to your **Desktop** and **Start Menu** automatically.
-  * **Smart Detection:** It can guess the right `.exe` in a folder or take specific instructions via command-line flags.
-  * **No-Nonsense Logic:** Uses a mix of Batch, PowerShell (for file metadata), and VBScript (for shortcuts) to ensure it works even on locked-down systems.
+* **System Integration:** Adds your app to the Windows Uninstall list (`HKLM`) so it shows up in system searches and settings.
+* **Automatic Uninstaller:** Creates a custom `Uninstall.bat` in the app folder that cleans up registry keys and shortcuts before removing the directory.
+* **Shortcut Creation:** Pins the app to your **Desktop** and **Start Menu** automatically.
+* **Smart Detection:** It can guess the right `.exe` in a folder or take specific instructions via command-line flags.
+* **No-Nonsense Logic:** Uses a mix of Batch, PowerShell (for file metadata), and VBScript (for shortcuts) to ensure it works even on locked-down systems.
 
 -----
 
@@ -28,23 +31,23 @@ Portable apps are great because they don't clutter your system, but they usually
 
 Because the uninstaller is designed to delete the application's folder when you're done with it, you need to be careful where you run this:
 
-1.  **Do not** run this script if the `.exe` is sitting directly on your Desktop or in your Downloads folder.
-2.  **Always** put your portable app in its own folder (e.g., `C:\Tools\MyLauncher`) before running UPAI.
-3.  The script includes safety checks to prevent "nuking" important system folders, but common sense is still required.
+1. **Do not** run this script if the `.exe` is sitting directly on your Desktop or in your Downloads folder.
+2. **Always** put your portable app in its own folder (e.g., `C:\Tools\MyLauncher`) before running UPAI.
+3. The script includes safety checks to prevent "nuking" important system folders, but common sense is still required.
 
 -----
 
 ## How to Use
 
-1.  Move `UPAI_v1.0.bat` into the folder where your portable app lives.
-2.  Run it as **Administrator**.
-3.  Follow the prompts to name the app and select the main executable.
+1. Move `UPAI_v1.0.bat` into the folder where your portable app lives.
+2. Run it as **Administrator**.
+3. Follow the prompts to name the app and select the main executable.
 
 ### Arguments
 
-  * `--silent`: Installs without asking questions (requires `--exe`).
-  * `--exe "app.exe"`: Tells the script exactly which file to target.
-  * `--license`: Shows the GPL v3.0 text.
+* `--silent`: Installs without asking questions (requires `--exe`).
+* `--exe "app.exe"`: Tells the script exactly which file to target.
+* `--license`: Shows the GPL v3.0 text.
 
 -----
 
