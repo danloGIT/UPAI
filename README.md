@@ -57,4 +57,4 @@ I wrote the core of this tool manually up to **Alpha-v0.6.3**. For the jump to *
 
 While AI provided the "scaffolding," it introduced several logic errors (like registry hive mismatches and risky deletion paths). I have since gone through and fixed those bugs to ensure this version is rock-solid and safe enough for any Windows enthusiast to use daily.
 
-I will soon add a Lite version that is just a skinned down version of the Normal/Pro one. (Current development version: **Alpha-v0.1.4**)
+I will soon add a Lite version that is just a skinned down version of the Normal/Pro one. (Current development version: **Alpha-v0.8.7**)
