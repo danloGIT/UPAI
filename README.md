@@ -76,4 +76,12 @@ Run with:
 
 ## Development History
 
+<<<<<<< HEAD
 I wrote the core of this tool manually up to **Alpha-v0.6.3**. For **v1.0** and **v1.1.0**, I expanded and hardened the PowerShell functions, splash screen, architecture-aware Program Files relocation, safety checks, and native PowerShell Pro edition alongside the stripped-down **Lite Edition (`v1.0`)**.
+=======
+I wrote the core of this tool manually up to **Alpha-v0.6.3**. For the jump to **v1.0**, I used AI to help expand the PowerShell and VBScript functions.
+
+While AI provided the "scaffolding," it introduced several logic errors (like registry hive mismatches and risky deletion paths). I have since gone through and fixed those bugs to ensure this version is rock-solid and safe enough for any Windows enthusiast to use daily.
+
+I will soon add a Lite version that is just a skinned down version of the Normal/Pro one. (Lite is officially done, final reliability testing is being done)
+>>>>>>> 8bcdce76da983e0320bd4862fe25ea3860209dd4
